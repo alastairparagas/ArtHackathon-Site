@@ -28,7 +28,7 @@
         ).pipe(gulp.dest('www'));
     });
     
-    gulp.task('default', ['sass', 'styles']);
+    gulp.task('default', ['sass', 'wiredep', 'watch']);
 
 }());
 
