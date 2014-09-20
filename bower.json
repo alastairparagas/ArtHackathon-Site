@@ -1,0 +1,29 @@
+{
+  "name": "RadArt",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alastairparagas/ArtHackathon-Site",
+  "authors": [
+    "Alastair Paragas <alastairparagas@gmail.com>"
+  ],
+  "description": "RadArt is a way for locals to discover the beauty of local art in their area.",
+  "keywords": [
+    "hackathon",
+    "art",
+    "ArtHackathon",
+    "YoungArts",
+    "Knight",
+    "Foundation"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Bootflat": "~2.0.4"
+  }
+}

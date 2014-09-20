@@ -1,0 +1,23 @@
+{
+  "name": "RadArt-Web-App",
+  "version": "0.0.0",
+  "description": "The web app portion of our ArtHackathon project for the YoungArts Foundation. Our project is divided between a mobile app and web app portion. You can view the ArtHackathon mobile app [at here](https://github.com/alastairparagas/ArtHackathon-App).",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alastairparagas/ArtHackathon-Site.git"
+  },
+  "author": "Alastair Paragas <alastairparagas@gmail.com> (http://aparagas.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alastairparagas/ArtHackathon-Site/issues"
+  },
+  "homepage": "https://github.com/alastairparagas/ArtHackathon-Site",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-shell": "^0.2.9",
+    "gulp-sass": "^0.7.3",
+    "gulp-watch": "^1.0.5",
+    "wiredep": "^1.8.5"
+  }
+}
