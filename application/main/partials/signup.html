@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-md-4 col-md-offset-4 thumbnail animated bounce pad">
+        <h4 class="text-center">Sign Up</h4>
+        <p>Artist? Creative? Sign up below and start personalizing your profile and digital art gallery for locals to experience and enjoy!</p>        
+        <form class="form" ng-submit="signup()">
+            <div class="form-group">
+                <input class="form-control" type="text" ng-model="email" placeholder="Email Address e.g. john@doe.com">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" ng-model="password" placeholder="Password e.g. test123">
+            </div>
+        </form>
+        <span class="pull-right">
+            <button class="btn btn-success" ng-click="signup()"><i class="fa fa-bullhorn"></i> Sign Up</button>
+            <a class="btn btn-danger" href="#/home"><i class="fa fa-close"></i> Exit</a>
+        </span>
+    </div>
+</div>

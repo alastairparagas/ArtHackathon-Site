@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-md-4 col-md-offset-4 thumbnail animated bounce pad">
+        <h4 class="text-center">Sign In</h4>
+        <form class="form" ng-submit="login()" novalidate>
+            <div class="form-group">
+                <input class="form-control" type="text" ng-model="email" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" ng-model="password" placeholder="Password" required>
+            </div>
+        </form>
+        <span class="pull-right">
+            <button class="btn btn-success" ng-click="login()"><i class="fa fa-user"></i> Sign In</button>
+            <a class="btn btn-error" href="#/signup"><i class="fa fa-bullhorn"></i> Sign Up</a>
+        </span>
+    </div>
+</div>
