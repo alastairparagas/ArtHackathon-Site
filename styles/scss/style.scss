@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import "../../bower_components/Bootflat/bootflat/scss/bootflat/global.scss";
+
+$navbar-background-color:                    transparentize($sunflower-light, 0.3);
+$navbar-background-color-active:             $sunflower-dark;
+
+
+@import "../../bower_components/Bootflat/bootflat/scss/bootflat.scss";
+
+body {
+    background: url('../../images/background.jpg');
+    background-size: contain;
+}
+
+.navbar-default {
+    & .navbar-brand,
+    & .navbar-link,
+    & .btn-link,
+    & .navbar-text,
+    & .navbar-nav > li > a {
+        color: #fff;
+    }
+}
+
+.pad{
+    padding: 10px;
+}
+
+.text-white{
+    color: $lightgray-light;
+    text-shadow: 0px 1px 2px #777;
+}
