@@ -24,6 +24,12 @@
     "tests"
   ],
   "dependencies": {
-    "Bootflat": "~2.0.4"
+    "Bootflat": "~2.0.4",
+    "animate.css": "~3.2.0",
+    "components-font-awesome": "~4.2.0",
+    "angular": "~1.2.25",
+    "angular-ui-router": "~0.2.11",
+    "angularfire": "~0.8.2",
+    "angular-bootstrap": "~0.11.0"
   }
 }

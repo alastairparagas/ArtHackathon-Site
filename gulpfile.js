@@ -10,7 +10,7 @@
     gulp.task('sass', function () {
         return gulp.src('styles/scss/**/*.scss').pipe(
             sass({
-                outputStyle: 'compresed'
+                outputStyle: 'compressed'
             })
         ).pipe(gulp.dest('styles/css'));
     });
@@ -25,11 +25,11 @@
             wiredep({
                 directory: 'bower_components/'
             })
-        ).pipe(gulp.dest('www'));
+        ).pipe(gulp.dest(''));
     });
     
     gulp.task('default', ['sass', 'wiredep', 'watch']);
-
+    
 }());
 
     
